@@ -1,7 +1,7 @@
 # Embedded Systems
 
-### RTOS
-
+### RTOS  
+Based on [Digi-Key's Introduction to RTOS](https://www.youtube.com/watch?v=F321087yYy4)
 - [Background](./topics/RTOS/Background.md)
 
 ### PSoC 6 BLE Robotic Arm Project
