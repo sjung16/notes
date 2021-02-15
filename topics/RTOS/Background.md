@@ -13,8 +13,7 @@ The following is based on [Digi-Key's Introduction to RTOS](https://www.youtube.
 - Scheduler is non-deterministic
 
 ## Real-Time Operating System (RTOS)
-- Usually used in microcontroller applications, such as WiFi, Bluetooth, or LCD drivers
-- Useful when you need to run multiple tasks concurrently
+- Usually used in microcontroller applications
 - Scheduler can:
   - guarantee meeting timing deadlines on tasks
   - run multiple tasks concurrently (not true multitasking in single-core)
