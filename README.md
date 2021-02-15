@@ -3,7 +3,7 @@
 ### RTOS  
 Based on Digi-Key's [Introduction to RTOS](https://www.youtube.com/watch?v=F321087yYy4) tutorial series
 - [Background](./topics/RTOS/Background.md)
-- [Setting up FreeRTOS](./topics/RTOS/Setting_Up_FreeRTOS.md)
+- [FreeRTOS Setup](./topics/RTOS/FreeRTOS_setup.md)
 
 ### PSoC 6 BLE Robotic Arm Project
 
