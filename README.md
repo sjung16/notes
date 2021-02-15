@@ -2,7 +2,7 @@
 
 ### RTOS
 
-- [Background](./topics/RTOS/background.md)
+- [Background](./topics/RTOS/Background.md)
 
 ### PSoC 6 BLE Robotic Arm Project
 
