@@ -1,4 +1,4 @@
-# Embedded Projects
+# Embedded Systems
 
 ### PSoC 6 BLE Robotic Arm
 
