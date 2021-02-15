@@ -8,14 +8,14 @@ Top design and pin settings:
 How do we make 'printf' work on PSoC 6? 
 
 - We must retarget standard out to UART interface. To do this, we must use the 'Retarget I/O' library.
-- Go to Build settings -> PDL -> utilities -> check 'Retarget I/O'. This will create stdio_user.h in the Shared Files folder.
-- Open stdio_user.h:
+- Go to `Build settings` -> `PDL` -> `Utilities` -> check `Retarget I/O`. This will create `stdio_user.h` in the Shared Files folder.
+- Open `stdio_user.h`:
 
   - #include "project.h" so we can reference the appropriate UART below.
   - for '#define IO_STDOUT_UART' and '#define IO_STDIN_UART', change value from SCB0 to UART_HW.
 
 Now that stdio is set up, we will control the UART with Cortex-M4.  
-Open main_cm4.c and add the following:
+Open `main_cm4.c` and add the following:
 ```
 #include <stdio.h>
 UART_Start();   // add this to the init section
